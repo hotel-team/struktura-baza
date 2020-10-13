@@ -33,10 +33,10 @@ CREATE TABLE pokoj(
 DROP TABLE IF EXISTS rezerwacja;
 CREATE TABLE rezerwacja(
     id INT NOT NULL AUTO_INCREMENT,
-    data_rozpoczencia DATE NOT NULL,
+    data_rozpoczecia DATE NOT NULL,
     data_zakonczenia DATE NOT NULL,
     id_pokoju INT NOT NULL,
-    id_uczrytkownika INT NULL,
+    id_uzytkownika INT NULL,
     PRIMARY KEY(id)
 );
 
